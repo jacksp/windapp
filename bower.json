@@ -1,0 +1,10 @@
+{
+  "name": "windapp",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "*",
+    "angular-ui-router": "*",
+    "lodash": "*",
+    "jquery": "*"
+  }
+}

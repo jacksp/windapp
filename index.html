@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Florent Destremau">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Windapp - visionner vos spots windguru</title>
+    <link href="./bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Windapp</h1>
+        <p class="lead">Visionnez tous vos spots favoris windguru sur la même page</p>
+      </div>
+      <div class="col-md-12">
+        <p>
+          Ajoutez un spot avec son id.
+        </p>
+        <form class="form-inline">
+          <div class="form-group col-md-4">
+            <label>
+              Nom :
+              <input type="text" class="form-control" id="name" placeholder="Nom du spot">
+            </label>
+          </div>
+          <div class="form-group col-md-4">
+            <label>
+              Id :
+              <input type="integer" class="form-control" id="id" placeholder="12345">
+            </label>
+          </div>
+          <div class="col-md-4">
+            <button type="submit" class="btn btn-default">Ajouter à ma liste</button>
+          </div>
+        </form>
+      </div>
+      <footer class="footer">
+        <p>&copy; Windapp 2015 - Florent Destremau</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+  </body>
+</html>

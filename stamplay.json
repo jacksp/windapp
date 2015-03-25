@@ -1,0 +1,10 @@
+{
+  "appId": "windapp",
+  "apiKey": "f6dc9aec69dda7a2cbb79b7bab5f7eac5516c51c7c340cd0aec9286455319fb6",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
